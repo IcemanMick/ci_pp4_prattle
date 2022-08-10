@@ -112,6 +112,10 @@ h1 {
     color: #fff;
 }
 
+.thread {
+    color: black;
+}
+
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;

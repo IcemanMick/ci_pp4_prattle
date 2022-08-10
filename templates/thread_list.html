@@ -4,10 +4,14 @@
 
 <div class="container-fluid">
     <div class="row">
+        <h2>Threads</h2>
 
         <!--List of threads to choose from-->
+        {% for thread in thread_list %}
         <div class="m-0 text-center">
             <div class="row">
+                <p class="thread">Thread: {{ thread.title }}</p>
+                {% endfor %}
 
             </div>
         </div>
