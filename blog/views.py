@@ -10,19 +10,20 @@ class TopicList(generic.ListView):
     paginate_by = 3
 
 
-class ThreadDetail(View):
+class ThreadList(View):
 
     def get(self, request, slug, *args, **kwargs):
         queryset = Topic.objects.filter(status=1)
-        thread = get_object_or_404(queryset, slug=slug)
-        comments = thread.comments.filter(approved=True).order_by('-created_on')
+        topic = get_object_or_404(queryset, slug=slug)
+        comments = topic.comments.filter(approved=True).order_by('-created_on')
         liked = False
-        if thread.likes.filter(id=self.request.user.id).exists():
+        if topic.likes.filter(id=self.request.user.id).exists():
             liked = True
 
-        return render(request, 'thread.html', {
-            "post": thread,
-            "comments": comments,
-            "liked": liked
-        }
+        return render(
+            request, "thread_list.html", {
+                "post": topic,
+                "comments": comments,
+                "liked": liked
+                },
         )
