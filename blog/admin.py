@@ -1,6 +1,10 @@
+# Code credit ITTIB by CI lines 1 to 4
 from django.contrib import admin
 from .models import Topic, Thread, Comment
 from django_summernote.admin import SummernoteModelAdmin
+
+# Code credit structure ITTIB by CI, values mix of ITTIB
+# and custom values lines 9 to 40
 
 
 @admin.register(Topic)

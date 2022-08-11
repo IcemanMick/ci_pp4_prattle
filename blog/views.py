@@ -1,3 +1,7 @@
+# Code Credit structure to ITTIB by CI, mix of ITTIB and custom
+# values for lines 5 to 30
+
+
 from django.shortcuts import render, get_object_or_404
 from django.views import generic, View
 from .models import Topic
@@ -16,14 +20,10 @@ class ThreadList(View):
         queryset = Topic.objects.filter(status=1)
         topic = get_object_or_404(queryset, slug=slug)
         threads = topic.threads.filter(approved=True).order_by('-created_on')
-        # liked = False
-        # if topic.likes.filter(id=self.request.user.id).exists():
-            # liked = True
 
         return render(
             request, "thread_list.html", {
                 "post": topic,
                 "threads": threads,
-                # "liked": liked
                 },
         )

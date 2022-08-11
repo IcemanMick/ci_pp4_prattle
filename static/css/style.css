@@ -1,3 +1,4 @@
+/*Code Credit ITTIB by CI*/
 body {
     background-color: #F9FAFC;
 }
@@ -7,6 +8,7 @@ h1 {
     text-align: center;
 }
 
+/*Code Credit ITTIB by CI*/
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
@@ -14,31 +16,38 @@ h1 {
     color: #4A4A4F;
 }
 
+/*Code Credit ITTIB by CI*/
 .thin {
     font-weight: 300;
 }
 
+/*Code Credit ITTIB by CI*/
 .light-bg {
     background-color: #fff;
 }
 
+/*Code Credit ITTIB by CI*/
 .dark-bg {
     background-color: #445261;
 }
 
+/*Code Credit ITTIB by CI*/
 .main-bg {
     background-color: #ce954a;
 }
 
+/*Code Credit ITTIB by CI*/
 .card {
     border: none;
     background-color: transparent;
 }
 
+/*Code Credit ITTIB by CI*/
 .image-container {
     position: relative;
 }
 
+/*Code Credit ITTIB by CI*/
 .image-flash {
     position: absolute;
     bottom: 5%;
@@ -47,12 +56,14 @@ h1 {
     background-color: #23BBBB;
 }
 
+/*Code Credit ITTIB by CI*/
 .author {
     color: white;
     margin: 4px;
     text-transform: uppercase;
 }
 
+/*Code Credit ITTIB by CI*/
 .masthead {
     margin-top: 10px;
     overflow: hidden;
@@ -62,17 +73,20 @@ h1 {
     width: 100%;
 }
 
+/*Code Credit ITTIB by CI*/
 .masthead-text {
     background-color: #445261;
     color: white;
     position: relative;
 }
 
+/*Code Credit ITTIB by CI*/
 .masthead-image {
     position: relative;
     overflow: hidden;
 }
 
+/*Code Credit ITTIB by CI*/
 .masthead-image:after {
     content: "";
     position: absolute;
@@ -87,21 +101,25 @@ h1 {
     z-index: 100;
 }
 
+/*Code Credit ITTIB by CI*/
 .post-link {
     text-decoration: none;
     color: #445261;
 }
 
+/*Code Credit ITTIB by CI*/
 .post-link:hover,
 .page-link {
     color: #E84610;
 }
 
+/*Code Credit ITTIB by CI*/
 .post-title {
     margin-top: 20%;
     margin-left: 5%;
 }
 
+/*Code Credit ITTIB by CI*/
 .post-subtitle {
     margin-left: 5%;
     color: lightgray;
@@ -113,33 +131,39 @@ h1 {
     color: black;
 }
 
+/*Code Credit ITTIB by CI*/
 .thread {
     color: black;
 }
 
+/*Code Credit ITTIB by CI*/
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
     color: #ce954a;
 }
 
+/*Code Credit ITTIB by CI*/
 .link {
     color: #23BBBB;
     text-decoration: none;
 }
 
+/*Code Credit ITTIB by CI*/
 .link:hover,
 .link:active {
     color: #445261;
     text-decoration: underline;
 }
 
+/*Code Credit ITTIB by CI*/
 .btn-like {
     color: #E84610;
     border: none;
     background: transparent;
 }
 
+/*Code Credit ITTIB by CI*/
 .btn-like:hover,
 .btn-like:active {
     color: #E84610;
@@ -148,7 +172,7 @@ h1 {
 }
 
 /* footer*/
-
+/*custom code lines 157 to 167*/
 .social-networks {
     text-align: center;
 }
@@ -160,7 +184,3 @@ h1 {
 .social-networks i {
     color: black
 }
-
-/*media queries for tablets 820px x 1180px and mobile devices 390px x 844px*/
-
-

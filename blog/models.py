@@ -1,8 +1,14 @@
+# Code credit to ITTIB by CI lines 4 to 8
+
+
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
+
+# Code Credit structure to ITTIB by CI, mix of ITTIB and custom
+# values for lines 13 to 28
 
 class Topic(models.Model):
     title = models.CharField(max_length=30, unique=True)
@@ -20,6 +26,9 @@ class Topic(models.Model):
 
     def __str__(self):
         return self.title
+
+# custom model lines 33 to 56. Structure based on ITTIB by CI
+
 
 class Thread(models.Model):
     post = models.ForeignKey(
@@ -45,6 +54,10 @@ class Thread(models.Model):
 
     def number_of_likes(self):
         return self.likes.count()
+
+
+# Code Credit structure to ITTIB by CI, mix of ITTIB and custom
+# valuesfor lines 63 to 78
 
 
 class Comment(models.Model):
