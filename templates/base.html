@@ -6,8 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
-    <meta charset="UTF-8">
+    <!--<script src="https://kit.fontawesome.com/5a97decf8e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
@@ -18,8 +19,6 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-
-    <script src="https://kit.fontawesome.com/5a97decf8e.js" crossorigin="anonymous"></script>
     <title>Prattle</title>
 </head>
 
@@ -66,15 +65,28 @@
     </main> 
 
     <!--Footer-->
-    <footer class="footer mt-auto py3 dark-bg">
+    <footer class="footer mt-auto py3 light-bg">
         <div>
             <p class="m-0 text-center text-white">Follow us on Social Media:</p>
             <div class="m=0 text-center text-white">
-                <ul>
-                    <li><i class="far fa-square-facebook"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-square-twitter"></i></li>
-                    <li><i class="fa-brands fa-youtube"></i></li> 
+                <ul class="social-networks">
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="visit our Facebook page (opens in a new tab)">
+                            <i class="fa-brands fa-facebook-f">Facebook</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="visit our Instagram page (opens in a new tab)">
+                            <i class="fa-brands fa-square-instagram">Instagram</i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="visit our Twitter page (opens in a new tab)">
+                            <i class="fa-brands fa-square-twitter">Twitter</i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)">
+                            <i class="fa-brands fa-youtube">Youtube</i></a>
+                    </li>
                 </ul>
             </div>
         </div>

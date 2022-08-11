@@ -107,9 +107,10 @@ h1 {
     color: lightgray;
 }
 
+/* css structure credit I think Therefore I Blog by Code Institute. Values are custom*/
 .btn-signup {
-    background-color: #23BBBB;
-    color: #fff;
+    background-color: #fff;
+    color: black;
 }
 
 .thread {
@@ -119,7 +120,7 @@ h1 {
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #ce954a;
 }
 
 .link {
@@ -145,3 +146,21 @@ h1 {
     background: transparent;
     border: none;
 }
+
+/* footer*/
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    color: black
+}
+
+/*media queries for tablets 820px x 1180px and mobile devices 390px x 844px*/
+
+
