@@ -34,11 +34,12 @@
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [JavaScript Validation](#javascript-validation)
-    4. [Performance](#performance)
-    5. [Accessibility](#accessibility)
-    6. [Browsers](#browsers)
-    7. [Devices](#devices)
-    8. [Manual Testing](#manual-testing)
+    4. [Python Validation](#python-validation)
+    5. [Performance](#performance)
+    6. [Accessibility](#accessibility)
+    7. [Browsers](#browsers)
+    8. [Devices](#devices)
+    9. [Manual Testing](#manual-testing)
 7. [Unfixed Bugs](#unfixed-bugs)
 8. [Deployment](#deployment)
 9. [Technology Used](#technology-used)
@@ -87,10 +88,94 @@ The objectives of the site owners are:
 - To create, edit, and delete admin comments
 - To approve user created threads
 - To edit or delete user comments
+- To upload photos for topics
 
+## User Stories
 
+### Agile Tool
 
+## Website Design
 
+### Layout
+
+### Colour Choices
+
+### Structure
+
+### Wireframes
+
+### Font
+
+## Features
+
+### Simplistic Design
+
+### Sign In / Register
+
+### Topics
+
+### Threads
+
+### Comments
+
+### Site Navigation
+
+### Pagination
+
+### Social Media
+
+### Site Admin
+
+## Testing
+
+Testing was conducted over the followinh #number of categories:
+1. HTML Validation
+2. CSS Validation
+3. JavaScript Validation
+4. Python Validation
+4. Performance
+5. Accessibility
+6. Browsers
+7. Devices
+
+Each of the four webpages were tested in the above categories
+
+1. Sign Up/Register
+2. Topics (Home)
+3. Threads
+4. Comments
+
+### HTML Validation
+
+### CSS Validation
+
+### JavaScript Validation
+
+### Python Validation
+
+### Performance
+
+### Accessibilty
+
+### Browsers
+
+### Devices
+
+### Manuel Testing
+
+## Unfixed Bugs
+
+## Deployment
+
+## Technology Used
+
+## Credits
+
+### Content
+
+### Media
+
+## Final Thoughts
 
 
 
