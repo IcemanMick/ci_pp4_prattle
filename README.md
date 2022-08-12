@@ -85,8 +85,6 @@ Michael Doyle
 Username: admin
 Password: Allstar2022
 
-As I write this, I've just doubled checked the login credentials and the css of the admin back end has completely changed from the standard layout it has been. I have no idea why. This just somes up this project in a nutshell. I'm genuinely embarrassed at the state of it and can only laugh or I'd cry. Apologies again.
-
 ### Background
 
 ## Objectives
@@ -184,8 +182,6 @@ The objectives of the site owners are:
 ## Unfixed Bugs
 
 ## Deployment
-
-Unsurprisingly, even my final deployment failed. Nightmare.
 
 ## Technology Used
 
