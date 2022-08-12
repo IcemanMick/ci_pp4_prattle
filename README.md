@@ -185,6 +185,8 @@ The objectives of the site owners are:
 
 ## Deployment
 
+Unsurprisingly, even my final deployment failed. Nightmare.
+
 ## Technology Used
 
 ## Credits
