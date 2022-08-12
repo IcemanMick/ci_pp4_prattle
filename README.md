@@ -128,23 +128,6 @@ The objectives of the site owners are:
 
 ## Testing
 
-Testing was conducted over the followinh #number of categories:
-1. HTML Validation
-2. CSS Validation
-3. JavaScript Validation
-4. Python Validation
-4. Performance
-5. Accessibility
-6. Browsers
-7. Devices
-
-Each of the four webpages were tested in the above categories
-
-1. Sign Up/Register
-2. Topics (Home)
-3. Threads
-4. Comments
-
 ### HTML Validation
 
 ### CSS Validation
@@ -171,9 +154,26 @@ Each of the four webpages were tested in the above categories
 
 ## Credits
 
+The majority of this project can only be credited to [I Think Therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) by the [Code Institute](https://codeinstitute.net/ie/).
+
+I have shortened this credit reference to "ITTIB by CI" in the comments of my code.
+
+My plan was to use this code as a foundation for my project which I would then customise and change to better suit the needs and look of my project. As explained in the above [A note to Code Institute/Grader](#a-note) section, this did not go to plan.
+
 ### Content
 
+- [I Think Therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) by the [Code Institute](https://codeinstitute.net/ie/).
+
 ### Media
+
+All photos from [Pexels](https://www.pexels.com/)
+
+- [People in a cafe talking](https://www.pexels.com/photo/photograph-of-men-having-conversation-seating-on-chair-1015568/) by [Helena Lopes](https://www.pexels.com/@wildlittlethingsphoto/)
+- [Jiu Jitsu](https://www.pexels.com/photo/men-doing-martial-arts-8611251/) by [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
+- [Ireland](https://www.pexels.com/photo/red-stall-1208781/) by [Mark Dalton](https://www.pexels.com/@themarkdalton/)
+- [Formula 1](https://www.pexels.com/photo/formula-1-racing-car-12749791/) by [Laura Paredis](https://www.pexels.com/@laura-paredis-1047081/)
+- [Football](https://www.pexels.com/photo/people-watching-soccer-game-1884574/) by [Tembela Bohle](https://www.pexels.com/@tbphotography/)
+
 
 ## Final Thoughts
 
