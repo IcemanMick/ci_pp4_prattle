@@ -29,6 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY') # Code Credit ITTIB by CI
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+X_FRAME_OPTIONS = 'SAMEORIGIN' # Code Credit ITTIB by CI
+
 ALLOWED_HOSTS = ['prattle22.herokuapp.com', 'localhost'] # Code Credit ITTIB by CI
 
 
