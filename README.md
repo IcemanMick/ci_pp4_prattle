@@ -8,7 +8,8 @@
 
 1. [Introduction](#introduction)
     1. [A note to Code Institute/Grader](#a-note)
-    2. [Background](#background)
+    2. [Superuser Login](#super-user)
+    3. [Background](#background)
 2. [Objectives](#objectives)
     1. [Site Visitors](#site-visitors)
     2. [Site Owners](#site-owners)
@@ -46,11 +47,45 @@
 10. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
-11. [Final Thoughts](#final-thoughts)
 
 ## Introduction
 
-### A note to Code/Institute/Grader
+### A note to Code Institute/Grader
+
+A note to Code Institute/Grader who is evaluating and reading this.
+
+Thank you for your time. I do apologise if I am wasting it with this project attempt. I am under no illusions that I have met the criteria required to pass, and I understand at the time of my submission that this is a straight fail.
+
+I take full responsibility for my failures. These last couple of months have been a perfect storm of moving apartment, starting a new job, and falling behind on my lessons with Code Institute. This is nothing more than poor time management on my part and an underestimation the amount of work I had before me.
+
+A valuable and costly lesson learned.
+
+Then when I finally did get to start this project, it was a classic case of what could go wrong did go wrong. Everything from deployment to Heroku failing to branch issues pushing to GitHub to basic things like Font Awesome imported logos not working. Safe to say it has been a dumpster fire.
+
+My previous three projects have all been graded a Merit, so this is not my usual standards or how I prepare my projects.
+
+However, I can do one thing and that is correctly credit the code that is present.
+
+The majority of the code in this project relates to the walkthrough project, I Think Therefore I Blog by Code Institute (which I've abbreviated in the code comments as "ITTIB by CI") My plan was to use this code as a foundation for my project which I would then customise and change to better suit the needs and look of my project. This did not go to plan. 
+
+As so much of the code present is not my own, I don't want you think I'm trying to plagiarise any of it and for the avoidance of doubt, it is explicitly not my code.
+
+I have credited this ITTIB code further down this README.md in the [Credits](#credits) section.
+
+As I have not completed this project, I have not completed the majority of this README.md file but instead just the layout.
+
+Once again thank you for your time. I look forward to being offered the chance to repeat, and present a better completed project.
+
+Best regards, 
+
+Michael Doyle
+
+### Superuser Login
+
+Username: admin
+Password: Allstar2022
+
+As I write this, I've just doubled checked the login credentials and the css of the admin back end has completely changed from the standard layout it has been. I have no idea why. This just somes up this project in a nutshell. I'm genuinely embarrassed at the state of it and can only laugh or I'd cry. Apologies again.
 
 ### Background
 
@@ -173,9 +208,4 @@ All photos from [Pexels](https://www.pexels.com/)
 - [Ireland](https://www.pexels.com/photo/red-stall-1208781/) by [Mark Dalton](https://www.pexels.com/@themarkdalton/)
 - [Formula 1](https://www.pexels.com/photo/formula-1-racing-car-12749791/) by [Laura Paredis](https://www.pexels.com/@laura-paredis-1047081/)
 - [Football](https://www.pexels.com/photo/people-watching-soccer-game-1884574/) by [Tembela Bohle](https://www.pexels.com/@tbphotography/)
-
-
-## Final Thoughts
-
-
 
